@@ -8,3 +8,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+nav {
+    background-color: #0084FD;
+    font-size: 1.5rem;
+}
+.container {
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.burger {
+    color: white;
+    padding: 10px;
+}
+
+.padding-t-b {
+    padding: 20px 0;
+}
+
+.violet {
+    background-color: #9792E4; 
+}
+
+.row {
+    border: 1px dashed red;
+}
+
+.col {
+    border: 1px dashed blue;
+    padding: 50px;
+}
+
+footer {
+    background-color: #333333;
+}
