@@ -10,19 +10,24 @@
 </head>
 <body>
     <header>
+        <!-- 
+            una nav classica con logo e lista per i 
+            vari link della nav con un button e
+            un bugher menu` che compare in mobile e tablet 
+        -->
         <nav class="padding-t-b">
             <div class="container container-flex .padding-t-b">
                 <img src="img/logo.png" alt="img logo">
 
                 <div class="nav-list">
                     <ul>
-                        <li><a href="#">sehsh</a></li>
-                        <li><a href="#">aerhaerh</a></li>
-                        <li><a href="#">arhaerh</a></li>
-                        <li><a href="#">arhaerh</a></li>
+                        <li><a href="#">Planning</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">About Us</a></li>
                     </ul>
 
-                    <button class="btn">asgarhareh</button>
+                    <button class="btn btn-white">Get Started</button>
                 </div>
 
                 <span class="burger"><i class="fa-solid fa-bars"></i></span>
@@ -31,58 +36,119 @@
     </header>
 
     <main>
+        <!-- 
+            una section con all'interno 5 cards, la prima di queste ha una dimensione diversa
+            dalle altre 4 e posizioni diverse in base alla mobile e alla tablet version
+        -->
         <section class="padding-t-b">
             <div class="container">
                 <div class="row">
+                    <!-- pima col -->
                     <div class="col col-2-3 light-blue">
-                        <div class="row row-b row-f">
+                        <div class="row row-b row-f gap-0">
                             <div class="col col-1-2-xl">
-                                <div class="cards padding-t-b">
-                                    <h2>Get a demo application</h2>
+                                <div class="cards padding-t-b padd-b">
+                                    <h2 class="tex-color-blue">Get a demo application</h2>
 
-                                    <p>Lorem ipsum dolor eligendi optio exercitationem dolorum officiis, vel asperiores. Qui sint natus quaerat officiis a quod quos ea odit sequi sunt.</p>
+                                    <p class="tex-color-gray">Lorem ipsum dolor eligendi optio exercitationem dolorum officiis, vel asperiores. Qui sint natus quaerat officiis a quod quos ea odit sequi sunt.</p>
                                     
                                     <button class="btn"> <i class="fa-brands fa-apple"></i> App Store </button>
                                 </div>
                             </div>
 
                             <div class="col col-1-2-xl">
-                                <div class="cards ">
-                                    <img src="img/phone.png" alt="img phone">
+                                <div class="cards padd-t">
+                                    <img class="phone-img" src="img/phone.png" alt="img phone">
                                 </div>
                             </div>
                         </div>
                     </div>
 
+                    <!-- seconda col -->
                     <div class="col col-1-3 light-blue">
-                        <div class="cards padding-t-b">
-                            <i class="fa-solid fa-file-code"></i>
+                        <div class="cards padding-t-b text-al-center">
+                            <span class="tex-color-blue"><i class="fa-solid fa-file-code"></i></span>
 
-                            <h2>Clean Code</h2>
+                            <h2 class="tex-color-blue">Clean Code</h2>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime facilis, cupiditate voluptatem dolor sit eum similique aperiam velit distinctio enim modi, consequuntur soluta autem! Excepturi ducimus modi impedit voluptate odio!</p>
+                            <p class="tex-color-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, consequuntur soluta autem! Excepturi ducimus modi impedit voluptate odio!</p>
                         </div>
                     </div>
 
-                    <div class="col col-1-3 light-blue">1/3</div>
+                    <!-- terza col -->
+                    <div class="col col-1-3 light-blue">
+                        <div class="cards padding-t-b text-al-center">
+                            <span class="tex-color-blue"><i class="fa-solid fa-compass-drafting"></i></span>
 
-                    <div class="col col-1-3 light-blue">1/3</div>
+                            <h2 class="tex-color-blue">Web design</h2>
+
+                            <p class="tex-color-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, consequuntur soluta autem! Excepturi ducimus modi impedit voluptate odio!</p>
+                        </div>
+                    </div>
+
+                    <!-- quarta col -->
+                    <div class="col col-1-3 light-blue">
+                        <div class="cards padding-t-b text-al-center">
+                            <span class="tex-color-blue"><i class="fa-solid fa-laptop-code"></i></span>
+
+                            <h2 class="tex-color-blue">Developement</h2>
+
+                            <p class="tex-color-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, consequuntur soluta autem! Excepturi ducimus modi impedit voluptate odio!</p>
+                        </div>
+                    </div>
                     
-                    <div class="col col-1-3 light-blue">1/3</div>
+                    <!-- quinta col -->
+                    <div class="col col-1-3 light-blue">
+                        <div class="cards padding-t-b text-al-center">
+                            <span class="tex-color-blue"><i class="fa-solid fa-bullhorn"></i></span>
+
+                            <h2 class="tex-color-blue">Branding</h2>
+
+                            <p class="tex-color-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, consequuntur soluta autem! Excepturi ducimus modi impedit voluptate odio!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
+        <!-- seconda section divisa in due col, nella seconda col c'e` una card -->
         <section class="violet padding-t-b">
             <div class="container">
-                <div class="row row-b  row-f">
-                    <div class="col col-1-2">1/2</div>
-                    
-                    <div class="col col-1-2">1/2</div>
+                <div class="row row-b row-f no-wr padding-l-r end">
+                    <div class="col col-1-2-xl">
+                        <div class="row row-b gap-0">
+                            <div class="col col-1-2-xl">
+                                <div class="cards padd-t">
+                                    <img id="planning-left" src="img/planning1.png" alt="img planning">
+                                </div>
+                            </div>
+
+                            <div class="col col-1-2-xl">
+                                <div class="cards padding-t-b padd-b">
+                                    <h2 class="tex-color-white">Strategic Planning</h2>
+
+                                    <p class="tex-color-white">Lorem ipsum dolor eligendi optio exercitationem dolorum officiis, vel asperiores. Qui sint natus quaerat officiis a quod quos ea odit sequi sunt.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-1-3">
+                        <div class="cards cards-white padding-t-b text-al-center tex-color-black">
+                            <img id="planning-right" src="img/planning2.png" alt="img planning">
+
+                            <h2>App Development</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consea ducimus modi impedit voluptate odio!</p>
+                        
+                            <button class="btn btn-icon"><i class="fa-solid fa-arrow-down-long"></i></button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
+        
         <section class="padding-t-b">
             <div class="container">
                 <span></span>

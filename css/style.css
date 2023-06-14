@@ -18,6 +18,7 @@ nav {
     background-color: #0084FD;
     font-size: 1.5rem;
 }
+
 .container {
     width: 100%;
     max-width: 992px;
@@ -69,28 +70,30 @@ nav {
 
 .col {
     border-radius: 20px;
-    /* padding: 50px; */
 }
 
 .cards {
     font-size: 1rem;
     padding-left: 30px;
     padding-right: 30px;
-    /* padding: 30px 30px 0 30px; */
 }
 
-.cards h2 {
-    color: #0084FD;
+.cards-white {
+    background-color: white;
+    border-radius: 20px;
 }
 
 .cards p {
     padding: 20px 0;
-    color: grey;
 }
 
-.cards img {
+main img {
     display: block;
     width: 100%;
+}
+
+.cards span {
+    font-size: 80px;
 }
 
 .btn {
@@ -100,6 +103,49 @@ nav {
     background-color: #0084FD;
     border: none;
     border-radius: 20px; 
+}
+
+.btn-white {
+    color: black;
+    background-color: white;
+}
+
+.btn-icon {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    color: black;
+    background-color: #9792E4;
+}
+
+.text-al-center {
+    text-align: center;
+}
+
+#planning-left {
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.tex-color-black {
+    color: black;
+}
+
+.tex-color-white {
+    color: white;
+}
+
+.tex-color-violet {
+    color: #9792E4;
+}
+
+.tex-color-gray {
+    color: grey;
+}
+
+.tex-color-blue {
+    color: #0084FD;
 }
 
 footer {
@@ -158,7 +204,6 @@ footer {
 
     .row-f {
         display: flex;
-        gap: none;
     }
 
     .col-1-2-xl {
@@ -167,6 +212,31 @@ footer {
 
     .col-1-3, .col-1-3-mid {
         flex-basis: calc((100% / 3) - var(--the-gap));
+    }
+
+    .gap-0 {
+        gap: 0rem;
+    }
+
+    .padd-t {
+        padding-top: 30px;
+    }
+
+    .padding-l-r {
+        padding: 0 70px;
+    }
+
+    .padd-b {
+        padding-bottom: 0;
+    }
+
+    .phone-img {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .end {
+        align-items: flex-end;
     }
 }
 
